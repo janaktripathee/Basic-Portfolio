@@ -46,54 +46,123 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-body{
-	width: 100%;
-	height: 100%;
-	margin:auto;
-}
+/*main css starts here*/
 
 .header-container{
-	height:80px;
-	width:100%;
-	background-color: #FFFFFF;
-	border-top: 1px solid gray;
-	border-bottom: 2px solid gray;
+	height: 70px;
+    background-color: #ffffff;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+.header-cont{
+	width: 960px;
+	margin: 0 auto;
 	
 }
-header{
-	width:25%;
-	height: 80px;
-	background-color: #36839a;
-	display:inline-block;
-	font-weight: bold;
-	font-size: 40px;
-	color: #ffffff;
-	text-align: center;
-	margin-left: 200px;
-
-
-}
-.header-text{
-	display: inline-block;
-	padding:20px;
-}
-nav{
-	display: inline-block;
-    font-size: 20px;
-    float: right;
-    padding: 31px;
-    margin-right: 200px;
-}
-nav a{
-	color: gray;
-    padding-right: 20px;
-    text-decoration: none;
-    border-right: 1px solid gray;
+.left-name{
+	text-align: left;
+    background-color: #4aaaa5;
+    height: 50px;
+    width: 18%;
     display: inline-block;
-    text-align: center;
-    padding-left: 20px;
+    padding-left: 34px;
+    padding-top: 20px;
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
 
 }
-nav a:last-child{
-	border-right: none;
+.nav-bar{
+	float: right;
+    margin-top: 24px;
+    color: #777777;
+    font-size: 19px
+
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.body-container{
+	width: 100%;
+    background-image: url('../images/concrete_seamless.png');
+    display: block;
+    padding-top: 50px;
+     height: 652px;
+
+}
+.body-cont{
+	background: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+}
+.body-content{
+	display: block;
+    width: 93%;
+    margin: 0 auto;
+    border-top: 1px solid gray;
+    height: 456px;
+}
+.body-content img{
+	width: 200px;
+    margin-top: 30px;
+    float: left;
+    margin-right: 24px;
+   
+}
+.body-header{
+	 display: block;
+    font-size: 30px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-left: 10px;
+    padding: 29px;
+}
+
+.profile-desc{
+	margin-top: 30px;
+    line-height: 30px;
+    color:gray;
+
+}
+#profile-desc{
+	clear: left;
+
+}
+.footer{
+	position: fixed;
+    top: 700px;
+    background: gray;
+    display: block;
+    width: 100%;
+    height: 53px;
+    border-top: 10px solid #4aaaa5;
+    text-align: center;
+    padding: 25px;
+
+}
+
+
+
